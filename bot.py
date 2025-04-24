@@ -6,7 +6,7 @@ from tensorflow.keras.preprocessing import image
 import numpy as np
 
 # Загрузка модели
-model = tf.keras.models.load_model("best_model.h5")
+model = tf.keras.models.load_model("best_model.keras")
 
 # Описание диагнозов и рекомендаций
 diagnosis_dict = {
